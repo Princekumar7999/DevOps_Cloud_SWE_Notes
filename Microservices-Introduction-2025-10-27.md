@@ -50,7 +50,7 @@ Continuous Deployment (CD)	Code that passes CI is automatically deployed to prod
 Together, CI and CD form a CI/CD pipeline: from code commit to build, test, and deployment, with as much automation as possible. The class highlighted building a complete CI/CD pipeline and using appropriate tools.
 
 2.3 Relation to Microservices
-DevOps practices (CI/CD, automation, monitoring, logging) are especially important in a microservices world because:
+DevOps practices (CI/CD, automation, monitoring, logging) are especially important in a microservices world because
 
 Many services need to be built, tested, and deployed often.
 Manual processes do not scale; automation and clear pipelines are necessary.
