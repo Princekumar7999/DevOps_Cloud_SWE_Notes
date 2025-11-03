@@ -107,4 +107,4 @@ Linux underpins most DevOps environments; a refresher on permissions (chmod) and
 CI automates lint → build → unit test → SCA/SAST and produces artifacts (JARs, Docker images, etc.) stored in an artifact repository.
 Docker builds layered, cached images; images are pushed to a registry for versioning and deployment.
 CD takes artifacts from the repository, deploys to environments, and runs SIT to validate integration; Elastic IPs (or similar) help keep production endpoints stable.
-Together, CI/CD and Dockerization form a robust delivery pipeline that improves speed, consistency, and quality.
+Together, CI/CD and Dockerization form a robust delivery pipeline that improves speed, consistency, and quality
