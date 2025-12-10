@@ -84,4 +84,4 @@ So the stack must handle: **container-to-container**, **Pod-to-Pod**, **Pod-to-S
 | Pod-to-Pod (cross node) | Routed via **Pod CIDR** and CNI |
 | Pod-to-Service | **iptables/IPVS** DNAT to backend Pods; **CoreDNS** for name resolution |
 | Egress | **SNAT** Pod IP → Node IP → Internet |
-| Ingress | **LoadBalancer** (L4) or **Ingress controller** (L7) → Service → Pods |
+| Ingress | **LoadBalancer** (L4) or **Ingress controller** (L7) → Service → Pods 
